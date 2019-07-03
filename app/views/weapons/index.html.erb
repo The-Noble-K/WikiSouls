@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<h1>All Weapons</h1>
+
+<div class='jumbotron'>
+  <% @weapons.each do |weapon| %>
+        <h2>
+          <%= weapon.title %>
+        </h2>
+        <p>
+          <%= weapon.body %>
+          <%= weapon.skill %>
+        </p>
+          <%= weapon.image_url %>
+        
+        <%= link_to 'Show', weapon %>
+        <%= link_to 'Edit', edit_weapon_path(weapon) %>
+        <%= link_to 'Destroy', weapon, method: :delete, data: { confirm: 'Are you sure?' } %>
+    <% end %>
+</div>
+
+<%= link_to 'New Weapon', new_weapon_path %>

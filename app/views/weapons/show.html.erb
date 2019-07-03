@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @weapon.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @weapon.body %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @weapon.image_url %>
+</p>
+
+<p>
+  <strong>Skill:</strong>
+  <%= @weapon.skill %>
+</p>
+
+<%= link_to 'Edit', edit_weapon_path(@weapon) %> |
+<%= link_to 'Back', weapons_path %>
