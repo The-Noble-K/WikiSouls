@@ -70,8 +70,8 @@
         <% Genre.all.each do |genre| %>
 
         <li class='nav-item'>
-          <a class="nav-link" href="<%= weapons_path(genre: genre.name) %>" >
-            <%= genre.name %>
+          <a class="nav-link" href="<%= weapons_path(genre: genre.title) %>" >
+            <%= genre.title %>
           </a>
         
         <% end %>
