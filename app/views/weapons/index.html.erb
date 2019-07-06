@@ -4,21 +4,16 @@
 
 <div class='jumbotron'>
   <% @weapons.each do |weapon| %>
-        <h2>
-          <%= weapon.title %>
-        </h2>
-        <h5>
-          <%= link_to 'Read More', weapon_path(weapon) %>
-        </h5>
-        <h5>
-          <%= truncate(weapon.body, length: 200) %>
-        </h5>
-        <h6>
-        <%= link_to 'Show', weapon %>
-        <%= link_to 'Edit', edit_weapon_path(weapon) %>
-        <%= link_to 'Destroy', weapon, method: :delete, data: { confirm: 'Are you sure?' } %>
-        </h6>
-    <% end %>
+  <br>
+  <h2>
+    <%= weapon.title %>
+  </h2>
+  <h5>
+    <%= link_to 'Read More', weapon_path(weapon) %>
+  </h5>
+  <h5>
+    <%= truncate(weapon.body, length: 200) %>
+  </h5>
+  <br>
+  <% end %>
 </div>
-
-<%= link_to 'New Weapon', new_weapon_path %>
