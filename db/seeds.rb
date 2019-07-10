@@ -731,5 +731,157 @@ weapons = Weapon.create([
    },
 
    # Axes
+   # -- Axes
+
+   {
+        title: "Battle Axe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/9/97/Battle_Axe_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160612040437",
+        body: "Easily-wielded axe crafted for battle and inflicting standard damage. It's weight can be used to inflict high damage, but must be used carefully as it leaves its wielder open to retaliation.\n",
+        skill: "Warcry\n
+        Let out a spirited warcry that temporarily boosts attack, and enables a special consecutive strong attack."
+   },
+   {
+        title: "Brigand Axe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/6/6b/Brigand_Axe.png/revision/latest/scale-to-width-down/350?cb=20160612035500",
+        body: "Axe favored by brigands of a distant land.\n
+        Surprisingly sturdy battle axe that requires more strength to wield than a standard axe.\n",
+        skill: "Warcry\n
+        Let out a spirited warcry that temporarily boosts attack."
+   },
+   {
+        title: "Butcher Knife",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/5/5b/Butcher_Knife_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160612035457",
+        body: "Butcher's knife with an oddly large blade wielded by the madwoman haunting the Road of Sacrifices.\n
+        Squarely-landed hits restore HP.\n
+        Back in the Undead Settlement, the woman acquired a taste for human flesh, of which she took glee in partaking.\n",
+        skill: "Sharpen\n
+        Sharpening the blade increases HP restored with each successful hit."
+   },
+   {
+        title: "Dragonslayer's Axe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/5/53/Dragonslayer%27s_Axe.png/revision/latest/scale-to-width-down/350?cb=20160612035458",
+        body: "Axe favored by Creighton the Wanderer, infamous deserter of the Knights of Mirrah.\n
+        Called Dragonslayer's Axe for the lightning that pulsates within its blade, but Creighton used it to slay men.\n",
+        skill: "Warcry\n
+        Let out a spirited warcry that temporarily boosts attack."
+   },
+   {
+        title: "Eleonora",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/17/Eleonora.png/revision/latest/scale-to-width-down/350?cb=20160612040436",
+        body: "A strange weapon found among malformed inhabitants of the Profaned Capital.\n
+        The Profaned Flame was triggered by the curse of these women, relatives of a certain oracle, but despite their culpability, they went on living without any cares.\n",
+        skill: "Feast Bell\n
+        Hold up axe and wave to emit a solemn chime to temporarily make weapons lacerating, and to restore HP for each hit."
+   },
+   {
+        title: "Hand Axe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/fe/Hand_Axe_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160612035459",
+        body: "A crude hand-axe that serves both as a weapon, and a tool of many uses.\n
+        Favored by pyromancers of the Great Swamp, this axe has a short range but only moderate weight, and reasonable damage. Easily wielded, and more powerful than it appears.\n",
+        skill: "Warcry\n
+        Let out a spirited warcry that temporarily boosts attack, and pierce through shields to inflict direct damage."
+   },
+   {
+        title: "Man Serpent Hatchet",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/70/Man_Serpent_Hatchet.png/revision/latest/scale-to-width-down/350?cb=20160628092028",
+        body: "Hatchet of the serpent men guarding Archdragon Peak.\n
+        Has a unique, broadly curved blade that can sneak past shields.\n",
+        skill: "Warcry\n
+        Let out a spirited warcry that temporarily boosts attack, and pierce through shields to inflict direct damage."
+   },
+   {
+        title: "Milwood Battle Axe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/8/8b/Millwood_Battle_Axe.png/revision/latest/scale-to-width-down/350?cb=20171026030004",
+        body: "Battle axe wielded by Millwood Knights. Its blade is blessed by the symbol of the Ethereal Oak.\n
+        A hefty axe normally wielded by the mightiest of warriors.\n",
+        skill: "Warcry\n
+        The unique warcry of the Millwood Knights entailed a leap straight toward the enemy and a fearsome roar."
+   },
+   {
+        title: "Thrall Axe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/3/3f/Thrall_Axe.png/revision/latest/scale-to-width-down/350?cb=20160612035501",
+        body: "Small hand axe used by Lothric slaves.\n
+        A cunning weapon for a cunning lot, this axe is quick and deadly.\n",
+        skill: "Quickstep\n
+        Instantly step behind or around the side of foes. Especially effective when locked on to target."
+   },
+   {
+        title: "Winged Knight Twinaxes",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/6/6f/Winged_Knight_Twinaxes.png/revision/latest/scale-to-width-down/350?cb=20160612040436",
+        body: "Paired beheading axes wielded by the Winged Knights, who swore themselves to the Angels.\n
+        These axes, more befitting of an executioner than a knight, are indented to fit the human body.\n",
+        skill: "Chain Spin\n
+        Sweep foes in a large spinning motion and use strong attack to continue the motion until stamina is exhausted."
+   },
+
+   # Axes 
+   # -- Greataxes
+
+   {
+        title: "Black Knight Greataxe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/17/Black_Knight_Greataxe_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160612041142",
+        body: "Greataxe of the black knights who wander the lands. Used to face chaos demons.\n
+        The unique attack of this axe greatly reduces enemy poise, reflecting the tremendous size of the enemies that the knights have fearlessly faced.\n",
+        skill: "Warcry\n
+        Let out a spirited warcry that temporarily boosts attack, and enables a special consecutive attack."
+   },
+   {
+        title: "Demon's Greataxe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/a/ad/Demon%27s_Greataxe_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160612035458",
+        body: "This greataxe, a favorite among demons, contains the strength of fire.\n
+        The demons, born of Chaos, harbor fire, and yet they are twisted and malformed, such that they were never meant to be.\n",
+        skill: "Demonic Flare\n
+        Briefly cause flame within to flare, and smash it upon earth and foes."
+   },
+   {
+        title: "Dragonslayer Greataxe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/12/Dragonslayer_Greataxe.png/revision/latest/scale-to-width-down/350?cb=20160612035459",
+        body: "Melted iron greataxe that once formed part of the Dragonslayer Armour.\n
+        Thickly imbued with the power of lightning. Use skill to draw upon the techniques used to slay the archdragons.\n",
+        skill: "Falling Bolt\n
+        Hold axe high in air to gather fierce lightning, and smash ground to whip the bolts to the ground."
+   },
+   {
+        title: "Earth Seeker",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/de/Earth_Seeker.png/revision/latest/scale-to-width-down/350?cb=20171026024442",
+        body: "This large twin-bladed axe forged with bronze is a ceremonial weapon normally used in sacred rites.\n
+        Millwood is a land of primitive earth worship where chieftain knights served as high priests.\n",
+        skill: "Earthen Wrath\n
+        Thrust weapon into earth with a prayer to trigger explosive tremors."
+   },
+   {
+        title: "Great Machete",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/c/cd/Great_Machete_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160612042913",
+        body: "This giant machete has a slash attack, and is a worker's tool in the Undead Settlement.\n
+        This dismantling tool was not originally intended for use in battle.\n",
+        skill: "Sharpen\n
+        Scrape the blade to sharpen and enable a cleaner cut."
+   },
+   {
+        title: "Greataxe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/5/54/Greataxe_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160612043142",
+        body: "Greataxe resembling a hunk of raw iron.\n
+        If one possesses the inhuman strength required to lift the weapon, the great heft of its attacks will send foes flying.\n
+        However, since every swing makes use of one's entire body, attacks leave the wielder wide open retaliation.\n",
+        skill: "Warcry\n
+        Let out a spirited warcry that temporarily boosts attack."
+   },
+   {
+        title: "Yhorm's Great Machete",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/3/3a/Yhorm%27s_Great_Machete.png/revision/latest/scale-to-width-down/350?cb=20160612041145",
+        body: "Great machete wielded long ago by Yhorm the Giant.\n
+        Yhorm once lumbered on the frontlines with a greatshield. But one day, in place of his shield, a left-hand notch was added to his machete, enabling the smashing technique that would become the legacy of his later years.\n",
+        skill: "Warcry\n
+        Let out a spirited warcry that temporarily boosts attack, and enables a crushing strong attack."
+   },
+
+   # Polearms
    # --
+
+   {
+        title: "",
+        image_url: "",
+        body: "",
+        skill: ""
+   },
 ])
