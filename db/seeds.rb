@@ -1008,7 +1008,139 @@ weapons = Weapon.create([
    },
 
    # Polearms
-   # --
+   # -- Spears
+
+   {
+        title: "Arstor's Spear",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/1d/Arstor%27s_Spear.png/revision/latest/scale-to-width-down/350?cb=20160612060913",
+        body: "One of the curses that festered within the belly of the Greatwood, and a terrible weapon favored by Earl Arstor the Impaler.\n
+        The spear is enwreathed in rotten, heavily poisonous meat. Defeating foes restores HP.\n",
+        skill: "Shield Splitter\n
+        Take a large step forward and make a single focused thrust to puncture enemy shields and inflict damage."
+   },
+   {
+        title: "Dragonslayer Spear",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/d5/Dragonslayer_Spear_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160612060913",
+        body: "Cross spear associated with Ornstein the Dragonslayer. A weapon of the gods imbued with the strength of lightning.\n
+        Two-handed thrust utilizes the support of the cross and requires great might, but can pierce deep into the flesh of dragons, and send mere men flying.\n",
+        skill: "Lightning Charge\n
+        Charge with spear at waist to enwreathe with lightning, then release bolts with final thrust."
+   },
+   {
+        title: "Dragonslayer Swordspear",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/a/a7/Dragonslayer_Swordspear.png/revision/latest/scale-to-width-down/350?cb=20160612060914",
+        body: "A dragon hunting weapon from the age of the gods. The earliest form of the cross spear, serving as both sword and spear.\n
+        Its owner was the Nameless King and deific hunter of dragons. The swordspear is imbued with lightning, of which he was the heir.\n",
+        skill: "Falling Bolt\n
+        Hold swordspear high in the air to summon fierce lightning that descends upon distant foes."
+   },
+   {
+        title: "Drang Twinspears",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/9/9d/Drang_Twinspears.png/revision/latest/scale-to-width-down/350?cb=20160612060914",
+        body: "Paired spears of the Drang Knights, proclaimed descendants from the land known for the legend of the Linking of the Fire. When the Drang Knights disbanded, they scattered across the lands as sellswords. They quickly became known for shieldless, aggressive tactics that struck fear into the hearts of men.",
+        skill: "Charge\n
+        Hold spear at waist and charge at foe. Use strong attack while charging to extend the length of the charge."
+   },
+   {
+        title: "Follower Javelin",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/4/44/Follower_Javelin.png/revision/latest/scale-to-width-down/350?cb=20171026024856",
+        body: "Light spear wielded by the Farron Followers. Balanced to allow for throwing.\n
+        The Followers attack in groups, surrounding foes, shielding themselves, and thrusting their spears at their foes. On a final command, they hurl their spears at their fallen foe, to give the retired warrior an honorable send-off.\n",
+        skill: "Hurl Spear\n
+        Emulate the practice of the Followers by throwing an illusory spear that assumes temporary form."
+   },
+   {
+        title: "Four-Pronged Plow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/1e/Four-Pronged_Plow_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160612060915",
+        body: "This four-pronged plow is shaped like a fist, and is a worker's tool in the Undead Settlement.\n
+        Not originally intended for battle, but serves as a deadly weapon owing to its sharp points.\n",
+        skill: "Charge\n
+        Hold spear at waist and charge at foe. Only, it is important to have good footing."
+   },
+   {
+        title: "Gargoyle Flame Spear",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/8/85/Gargoyle_Flame_Spear.png/revision/latest/scale-to-width-down/350?cb=20160612060915",
+        body: "Stone torch spear wielded by gargoyles of the Profaned Capital.\n
+        The Profaned Flame, which never goes out, imbues this weapon with a fire attack.\n",
+        skill: "Kindled Charge\n
+        Hold spear at waist and charge at foe, and use momentum to transition to a fiery strong attack."
+   },
+   {
+        title: "Golden Ritual Spear",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/a/ac/Golden_Ritual_Spear.png/revision/latest/scale-to-width-down/350?cb=20160612060915",
+        body: "A ritual spear presented to Darkmoon Knights before Sulyvahn claimed the title of Pontiff.\n
+        Can also be used as a staff. Sorceries cast using this weapon channel the wielder's faith.\n",
+        skill: "Steady Chant\n
+        Boost the strength of sorceries for a very short period."
+   },
+   {
+        title: "Partizan",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/a/a1/Partizan_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160612060916",
+        body: "Spear with blade attached to broad point. Long reach, and can be used with shield up. Attacks faster with shield down.\n
+        This weapon can utilize its blade for slicing attacks, and is generally adaptable to many situations, but in cramped quarters, its slices ricochet off walls.\n",
+        skill: "Spin Sweep\n
+        Sweep foes in a large spinning motion, and utilize momentum to transition into an overhanded strong attack smash."
+   },
+   {
+        title: "Rotten Ghru Spear",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/a/a0/Rotten_Ghru_Spear.png/revision/latest/scale-to-width-down/350?cb=20160725065514",
+        body: "A crude, half-rotten curved spear.\n
+        Choice weapon of the blunt-horned Ghrus, descendants of the acolytes of Farron Keep.\n
+        The rancid tip is drenched in rotten waste, making it acutely poisonous.\n",
+        skill: "Charge\n
+        Hold spear at waist and charge at foe. Use strong attack while charging to extend the length of the charge."
+   },
+   {
+        title: "Saint Bident",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/6/6c/Saint_Bident.png/revision/latest/scale-to-width-down/350?cb=20160612060917",
+        body: "A silver bident decorated by a holy symbol, formerly wielded by Saint Klimt. He discarded this weapon, that draws upon one's faith, on the day that he put his own faith behind him.",
+        skill: "Charge\n
+        Hold spear at waist and charge at foe. Use strong attack while charging to extend the length of the charge."
+   },
+   {
+        title: "Soldering Iron",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/f3/Soldering_Iron.png/revision/latest/scale-to-width-down/350?cb=20160612061035",
+        body: "Branding iron used by the jailers prowling Irithyll Dungeon.\n
+        Press its searing tip against foes to inflict fire damage, and temporarily block Estus healing.\n",
+        skill: "Charge\n
+        Hold iron at waist and charge at foe. Use strong attack while charging to extend the length of the charge."
+   },
+   {
+        title: "Spear",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/0/0b/Spear_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160612061036",
+        body: "Common short spear that allows attacking with shield up.\n
+        Spear attacks are centered on thrusting, but can inflict high damage when timed with the end of an enemy's swing.\n",
+        skill: "Shield Splitter\n
+        Take a large step forward and make a single focused thrust to puncture enemy shields and inflict damage."
+   },
+   {
+        title: "Tailbone Spear",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/ff/Tailbone_Spear.png/revision/latest/scale-to-width-down/350?cb=20160612061036",
+        body: "Twisted spear favored by the wretched, failed prisoners of Irithyll Dungeon.\n
+        Crafted from a feeble tailbone, and seen as a sign of the dragons. Their screams are oft heard inside the dungeon, as they naively mutilate their unworthy flesh.\n",
+        skill: "Unleash Dragon\n
+        Thrust the spear to unleash the strength of dragons, similar to an ancient dragon weapon, only with its power tragically faded."
+   },
+   {
+        title: "Winged Spear",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/8/86/Winged_Spear_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160612061036",
+        body: "A long-hilted spear with wing lugs.\n
+        Long reach, and can be used with shield up.\n
+        Spear attacks are centered on thrusting, but can inflict high damage when timed with the end of an enemy's swing.\n",
+        skill: "Charge\n
+        Hold spear at waist and charge at foe. Use strong attack while charging to extend the length of the charge."
+   },
+   {
+        title: "Yorshka's Spear",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/fc/Yorshka%27s_Spear.png/revision/latest/scale-to-width-down/350?cb=20160612061037",
+        body: "This treasure, gifted to the Yorshka Church, is enchanted with a soporific spell, and was surreptitiously worshiped by Irithyll slaves.\n
+        As a weapon, it is part spear and part hammer, the former allowing thrusting, and the latter allowing strikes.\n",
+        skill: "Pacify\n
+        With a prayer and an offering of this spear, temporarily wear down enemy FP with each strike."
+   },
+
+   # Polearms
+   # -- 
 
    {
         title: "",
@@ -1016,5 +1148,10 @@ weapons = Weapon.create([
         body: "",
         skill: ""
    },
-   
+   {
+        title: "",
+        image_url: "",
+        body: "",
+        skill: ""
+   },
 ])
