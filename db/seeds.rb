@@ -1140,14 +1140,53 @@ weapons = Weapon.create([
    },
 
    # Polearms
-   # -- 
+   # -- Pikes
 
    {
-        title: "",
-        image_url: "",
-        body: "",
-        skill: ""
+        title: "Greatlance",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/b/b5/Greatlance.png/revision/latest/scale-to-width-down/350?cb=20160613012122",
+        body: "This lance features a long pole, and was originally intended to be used by knights for jousting.\n
+        This weapon is primarily used in charging attacks, and would require tremendous strength and dexterity to be handled by a mere foot soldier.\n",
+        skill: "Charge\n
+        Hold spear at waist and charge at foe. Only, it is important to have good footing."
    },
+   {
+        title: "Lothric Knight Long Spear",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/7b/Lothric_Knight_Long_Spear.png/revision/latest/scale-to-width-down/350?cb=20160613012122",
+        body: "Long spear wielded by the proud Lothric Knights.\n
+        Designed for long-range thrusting.\n
+        Lothric spear knights are known for their steadfastness, and this spear boosts the poise of its wielder.\n",
+        skill: "Charge\n
+        Hold spear at waist and charge at foe. Use strong attack while charging to extend the length of the charge."
+   },
+   {
+        title: "Lothric War Banner",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/9/96/Lothric_War_Banner.png/revision/latest/scale-to-width-down/350?cb=20171030071054",
+        body: "The flagpole that once carried the Lothric crest, and guided the knights long ago.\n
+        The tip of the pole is fitted with a sharply pointed decoration, letting it serve as a spear.\n",
+        skill: "Lothric War Banner\n
+        Wave the flagpole high in the air, like the days of yore, summoning an ethereal war banner that invigorates the attack of those who gather under it."
+   },
+   {
+        title: "Pike",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/7d/Pike_%28DaSIII%29.png/revision/latest/scale-to-width-down/350?cb=20170801142301",
+        body: "Long spear with a very long hilt. Designed for long-range thrusting.\n
+        Has the longest range of the non-projectile weapons, but its very length makes it unwanted in certain situations.\n",
+        skill: "Charge\n
+        Hold spear at waist and charge at foe. Use strong attack while charging to extend distance."
+   },
+   {
+        title: "Ringed Knight Spear",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/0/0c/Ringed_Knight_Spear.png/revision/latest/scale-to-width-down/350?cb=20171103065435",
+        body: "Black spear wielded by the Ringed Knights. The arms of early men were forged in the Abyss, and betray a smidgen of life.\n
+        For this reason the gods cast a seal of fire upon these spears, and those who possessed them.\n",
+        skill: "Ember\n
+        Thrust the timeworn spear and watch it restore its ancient brilliance and reignite a short-lived flame, whose dull aftermath will carry on."
+   },
+
+   # Polearms
+   # --
+
    {
         title: "",
         image_url: "",
