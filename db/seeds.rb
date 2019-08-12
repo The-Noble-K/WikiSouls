@@ -1185,7 +1185,99 @@ weapons = Weapon.create([
    },
 
    # Polearms
-   # --
+   # -- Halberds
+
+   {
+        title: "Black Knight Glaive",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/f1/Black_Knight_Glaive.png/revision/latest/scale-to-width-down/350?cb=20160613012750",
+        body: "Glaive of the black knights who wander the lands. Used to face chaos demons.\n
+        The unique attack of this glaive greatly reduces enemy poise, reflecting the tremendous size of the enemies that the knights have fearlessly faced.\n",
+        skill: "Spin Sweep\n
+        Sweep foes in a large spinning motion, and utilize momentum to transition into and overhanded strong attack slash."
+   },
+   {
+        title: "Crescent Axe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/73/Crescent_Axe_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613010754",
+        body: "A crescent-shaped halberd resembling a long-handled battle axe.\n
+        Traditionally wielded by Way of White clerics.\n",
+        skill: "Warcry\n
+        Let out a spirited warcry that temporarily boosts attack, and enables a special consecutive strong attack."
+   },
+   {
+        title: "Crucifix of the Mad King",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/e/e7/Crucifix_of_the_Mad_King.png/revision/latest/scale-to-width-down/350?cb=20171030071013",
+        body: "A cross spear hung with a malformed corpse.\n
+        Once, a mad king was born to the pygmy royalty and Shira, knight of Filianore, put him to rest. But Shira's cross spear, unable to kill the undying king, only pinned itself to him. Shira delivered them together to the darkroom, where she stayed and held them close.\n",
+        skill: "Mad King's Folly\n
+        Slam malformed corpse into the ground to briefly awaken it, then fillet with strong attack to trigger a roar, a blessing, or vexation."
+   },
+   {
+        title: "Glaive",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/e/e9/Glaive.png/revision/latest/scale-to-width-down/350?cb=20160613012751",
+        body: "This halberd with a large blade was a scythe refitted for battle.\n
+        Designed for slicing, and inflicts slash damage.\n",
+        skill: "Spin Sweep\n
+        Sweep foes in a large spinning motion, and utilize momentum to transition into an overhanded strong attack smash."
+   },
+   {
+        title: "Gundyr's Halberd",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/5/5f/Gundyr%27s_Halberd.png/revision/latest/scale-to-width-down/350?cb=20160613012751",
+        body: "Halberd of Gundyr the Champion, received when he was charged with his duty.\n
+        This old cast-iron halberd has the power to break poise, and is said to never crumble, seeming to suggest that Gundyr was fated to eternal service from the beginning.\n",
+        skill: "Champion's Charge\n
+        Hold spear at waist and charge at foe, and use momentum to transition into sweeping strong attack."
+   },
+   {
+        title: "Halberd",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/13/Halberd_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613012752",
+        body: "This long-hilted weapon mixing spear and axe is difficult to handle, requiring both strength and dexterity.\n
+        Can be thrust like a spear or swept sideways like an axe, making it a versatile weapon effective against multiple foes.\n",
+        skill: "Charge\n
+        Hold spear at waist and charge at foe. Use strong attack while charging to extend the length of the charge."
+   },
+   {
+        title: "Immolation Tinder",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/b/bf/Immolation_Tinder.png/revision/latest/scale-to-width-down/350?cb=20160613013828",
+        body: "Profaned Flame wielded by the Irithyllian witches, frigid spirits roaming the Boreal Valley.\n
+        This torch, both a weapon and a staff, is enshrouded in an everlasting flame.\n",
+        skill: "Punitive Flame\n
+        Punish foes with a flame that blankets the ground."
+   },
+   {
+        title: "Lucerne",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/2/29/Lucerne_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613013829",
+        body: "A polearm with a sharp, hard pronged head that inflicts thrust attacks.\n
+        The Lucerne is wielded overhand like a hammer, or can be swung from the side to break through shields.\n",
+        skill: "Spin Sweep\n
+        Sweep foes in a large spinning motion, and utilize momentum to transition into an overhanded strong attack smash."
+   },
+   {
+        title: "Red Hilted Halberd",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/c/c3/Red_Hilted_Halberd.png/revision/latest/scale-to-width-down/350?cb=20160613013829",
+        body: "Long-hilted weapon mixing spear and axe. The red-hilted halberd is associated with clerics.\n
+        Can be thrust like a spear or swept sideways like an axe, making it a versatile weapon effective against multiple foes.\n",
+        skill: "Perseverance\n
+        Assume an unfaltering stance of prayer to temporarily boost poise. Damage reduced while activated."
+   },
+   {
+        title: "Splitleaf Greatsword",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/8/84/Splitleaf_Greatsword.png/revision/latest/scale-to-width-down/350?cb=20171103065907",
+        body: "A long-handled greatsword that made its way from a distant land. Crafted entirely with bronze, making it exceedingly heavy.\n
+        Splitleaf refers to the shape of the great blade, and its resemblance to the veins of a leaf.\n",
+        skill: "Wind Wheel\n
+        Spin weapon vigorously above head and sweep foes, and transition with normal or strong attack for continued spin attacks, which whip up wind and gain momentum, strengthening subsequent attacks."
+   },
+   {
+        title: "Winged Knight Halberd",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/7c/Winged_Knight_Halberd.png/revision/latest/scale-to-width-down/350?cb=20160613013830",
+        body: "Halberd wielded by the Winged Knights, who swore themselves to the Angels.\n
+        The thick, heavy, bloodstained blade can only be swung by one with inhuman strength.\n",
+        skill: "Spin Sweep\n
+        Sweep foes in a large spinning motion and use strong attack to continue the motion until stamina is exhausted."
+   },
+
+   # Polearms
+   # -- Reapers
 
    {
         title: "",
