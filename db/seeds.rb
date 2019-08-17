@@ -1313,6 +1313,81 @@ weapons = Weapon.create([
         Create a bone-chilling frost with each swing of the greatscythe that causes a temporary frost effect."
    },
 
-   # Polearms
-   # -- 
+   # Hammers
+   # -- Hammers
+
+   {
+        title: "Blacksmith Hammer",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/4/49/Blacksmith_Hammer_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160629135150",
+        body: "Metal hammer passed down amongst blacksmiths of the shrine. Serves as a strike weapon, but also excels at reducing poise and breaking the guard of a shield.\n
+        Of course, a hammer's true potential is realized in the hands of a blacksmith.\n",
+        skill: "Perseverance\n
+        Assume an unfaltering stance of prayer to temporarily boost poise. Damage reduced while activated."
+   },
+   {
+        title: "Club",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/2/20/Club_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160629140829",
+        body: "A simple wooden club. Characterized by savage leaping attacks.\n
+        This crude bladeless strike weapon is effective against most foes, and can break the guard of a shield.\n",
+        skill: "Warcry\n
+        Let out a spirited warcry that temporarily boosts attack, and enabled a special consecutive strong attack."
+   },
+   {
+        title: "Drang Hammers",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/15/Drang_Hammers.png/revision/latest/scale-to-width-down/350?cb=20160629135004",
+        body: "Paired hammers of the Drang Knights, proclaimed descendants from the land known for the legend of the Linking of the Fire. When the Drang Knights disbanded, they scattered across the lands as sellswords. They quickly became known for shieldless, aggressive tactics that struck fear into the hearts of men.\n",
+        skill: "Spin Bash\n
+        Bash foes with a large spinning motion, and utilize momentum to transition into an overhanded strong attack smash."
+   },
+   {
+        title: "Heysel Pick",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/0/07/Heysel_Pick.png/revision/latest/scale-to-width-down/350?cb=20160614034535",
+        body: "Choice weapon of Yellowfinger Heysel, a Finger of Rosaria and xanthous scholar.\n
+        This is both a weapon and a sorcery staff. The gold specks are remnants of lost sorceries.\n",
+        skill: "Steady Chant\n
+        For a short moment, boost the strength of sorceries. Works while equipped in either hand."
+   },
+   {
+        title: "Mace",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/78/Mace_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160629134521",
+        body: "Iron hammer designed for use in battle. A common weapon for clerics.\n
+        This bladeless strike weapon is effective against most foes, and can break the guard of a shield.\n",
+        skill: "Perseverance\n
+        Assume an unfaltering stance of prayer to temporarily boost poise. Damage reduced while activated."
+   },
+   {
+        title: "Morning Star",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/c/c3/Morning_Star_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160629134508",
+        body: "Hammer with a sharp spike on its pommel.\n
+        One of the more barbaric cleric weapons.\n
+        The sharp thorns allow this strike weapon to induce bleeding.\n",
+        skill: "Perseverance\n
+        Assume an unfaltering stance of prayer to temporarily boost poise. Damage reduced while activated."
+   },
+   {
+        title: "Reinforced Club",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/2/2a/Reinforced_Club_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160629134457",
+        body: "A club made more deadly by the attachment of numerous nails to its heads.\n
+        The nails allow this strike weapon to be lacerating, but the damage caused by their insertion has reduced its durability, making the weapon fragile.\n",
+        skill: "Warcry\n
+        Let out a spirited war cry that temporarily boosts attack, and enables a special consecutive strong attack"
+   },
+   {
+        title: "Warpick",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/4/45/Warpick_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160629135307",
+        body: "A war hammer with a hard pronged head. Was originally a pickaxe, but was refitted for battle.\n
+        This simple but deadly weapon hits heavily with thrust damage, easily puncturing metal armor.\n",
+        skill: "Galvanize\n
+        Temporarily boost stamina recovery speed by sheer force of will, or perhaps as a channeling of the original owner's industrious efforts."
+   },
+
+   # Hammers
+   # -- Great Hammers
+
+   {
+        title: "",
+        image_url: "",
+        body: "",
+        skill: ""
+   },
 ])
