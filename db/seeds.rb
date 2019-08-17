@@ -1280,9 +1280,39 @@ weapons = Weapon.create([
    # -- Reapers
 
    {
-        title: "",
-        image_url: "",
-        body: "",
-        skill: ""
+        title: "Friede's Great Scythe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/1b/Friede%27s_Great_Scythe.png/revision/latest/scale-to-width-down/350?cb=20171026025744",
+        body: "A great scythe wielded by Sister Elfriede, with a curved blade thinly coated by Painted World frost that easily breaks the guard of shields.\n
+        In the painting, the scythe is a symbol of a long-lost home, possibly explaining Elfriede's preference for it.\n",
+        skill: "Elfriede's Stance\n
+        Conjure a magic bladed support scythe into the left hand while the great scythe remains in the right, a stance derived from Elfriede's former swordmanship. Use normal attack to leap forward and swing twice, or strong attack to coat the earth with running frost."
    },
+   {
+        title: "Great Corvian Scythe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/75/Great_Corvian_Scythe.png/revision/latest/scale-to-width-down/350?cb=20160627050801",
+        body: "Great scythe of the forlorn souls guided by heretical storytellers.\n
+        The mistress of the Painted World is said to wield a great scythe herself.\n
+        Great scythes inflict profuse bleeding, such that the blood splatters on the wielder.\n",
+        skill: "Neck Swipe\n
+        This attack aims for the scruff of a foe's neck, and when successful, functions as a head shot, inflicting heavy damage."
+   },
+   {
+        title: "Great Scythe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/dc/Great_Scythe_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160627051615",
+        body: "Attacks with this large scythe, normally used for crop harvesting, are effective at breaking past shields.\n
+        The magnificent sharp curved blade instils fear in opponents. Perhaps it is their survival instinct at work.\n",
+        skill: "Neck Swipe\n
+        This attack aims for the scruff of a foe's neck, and when successful, functions as a head shot, inflicting heavy damage."
+   },
+   {
+        title: "Pontiff Knight Great Scythe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/a/a9/Pontiff_Knight_Great_Scythe.png/revision/latest/scale-to-width-down/350?cb=20160627051553",
+        body: "Great scythe wielded by the Pontiff's knights, frigid spirits that linger in Irithyll.\n
+        The large blade appears to be eaten away by insects, making it lightweight but also brittle.\n",
+        skill: "Frost\n
+        Create a bone-chilling frost with each swing of the greatscythe that causes a temporary frost effect."
+   },
+
+   # Polearms
+   # -- 
 ])
