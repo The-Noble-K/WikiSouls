@@ -1385,6 +1385,122 @@ weapons = Weapon.create([
    # -- Great Hammers
 
    {
+        title: "Dragon Tooth",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/1b/Dragon_Tooth_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613020544",
+        body: "Created from an everlasting dragon tooth that will never break.\n
+        Left by Havel himself, along with his boulder-like great shield. Grants its wielder resistance to magic and fire.\n",
+        skill: "Perseverance\n
+        Anchor weapon in earth to temporarily boost poise. Damage reduced while activated."
+   },
+   {
+        title: "Gargoyle Flame Hammer",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/1e/Gargoyle_Flame_Hammer.png/revision/latest/scale-to-width-down/350?cb=20160613020545",
+        body: "Stone torch hammer wielded by gargoyles of the Profaned Capital.\n
+        The Profaned Flame, which never goes out, imbues this weapon with a fire attack.\n",
+        skill: "Kindled Flurry\n
+        Anchor weapon in earth and use strong attack to launch successive volleys of fire form the tip of the hammer."
+   },
+   {
+        title: "Great Club",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/b/bd/Great_Club_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613020545",
+        body: "Wood club fashioned from the branch of a giant tree. Requires considerable strength to wield.\n
+        A hard, durable weapon. Its weight makes it easier to break the guard of shields.\n",
+        skill: "Warcry\n
+        Let out a spirited war cry that temporarily boosts attack, and enables special consecutive attacks."
+   },
+   {
+        title: "Great Mace",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/76/Great_Mace.png/revision/latest/scale-to-width-down/350?cb=20160613020545",
+        body: "Large mace wielded by the knights of the Cathedral of the Deep.\n
+        The extremely heavy strike attacks of this weapon are devastating and will break weaker shields with a single blow. Wielding such a weapon will require inhuman strength.\n",
+        skill: "Perseverance\n
+        Anchor weapon in earth to temporarily boost poise. Damage reduced while activated."
+   },
+   {
+        title: "Great Wooden Hammer",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/3/33/Great_Wooden_Hammer.png/revision/latest/scale-to-width-down/350?cb=20160613020546",
+        body: "This giant wooden hammer is a worker's tool in the Undead Settlement.\n
+        Intended to grind flesh and bone to prepare for burial, rather than use in battle.\n",
+        skill: "Spin Bash\n
+        Bash foes with a large spinning motion, utilizing momentum to transition into a overhand strong attack smash."
+   },
+   {
+        title: "Large Club",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/8/8a/Large_Club_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613020546",
+        body: "Large wooden club. Requires considerable strength to wield.\n
+        Characterized by savage leaping attacks. Its weight makes it easier to break the guard of shields.\n",
+        skill: "Warcry\n
+        Let out a spirited warcry that temporarily boosts attack, and enables a special consecutive strong attack."
+   },
+   {
+        title: "Ledo's Great Hammer",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/b/b2/Ledo%27s_Great_Hammer.png/revision/latest/scale-to-width-down/350?cb=20171103064952",
+        body: "Great Hammer wielded by the Silver Knight Ledo. Ledo's Hammer is by far the heaviest weapon amongst those wielded by the knights of Anor Londo.\n
+        Ledo, an eccentric who traveled across the outskirts, became a close friend to the giants and even Havel, the Rock.\n",
+        skill: "Call to Stone\n
+        Spin to lure stones to the steel hammer, and use strong attack to transition into an earth slam that shatters the stones in a shockwave."
+   },
+   {
+        title: "Morne's Great Hammer",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/8/80/Morne%27s_Great_Hammer.png/revision/latest/scale-to-width-down/350?cb=20160613020546",
+        body: "Great Hammer bestowed upon Carim Knights with demonstrate outstanding strength and unwavering faith.\n
+        Decorated by a warding charm of Carim Temple, and imbued with the twisted rage of Apostle Morne.\n",
+        skill: "Morne's Rage\n
+        Stick weapon into earth and emit a powerful shockwave. Also, similar to Perseverance, temporarily boosts poise and reduces damage received."
+   },
+   {
+        title: "Old King's Great Hammer",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/2/21/Old_King%27s_Great_Hammer.png/revision/latest/scale-to-width-down/350?cb=20160613010702",
+        body: "Great Hammer of the Old Demon King.\n
+        This weapon has survived since old Izalith, and is imbued with remnants of the Chaos Flame.\n",
+        skill: "Molten Perseverance\n
+        Anchor weapon in earth to temporarily boost poise, and use strong attack to repeatedly stab earth to trigger molten explosions."
+   },
+   {
+        title: "Pickaxe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/8/88/Pickaxe_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613005035",
+        body: "Tool used by a miner for digging up earth. Not intended for use in battle.\n
+        Yet the strong downward swing of this tool once shattered large boulders, and easily punctures weaker armor.\n",
+        skill: "Galvanize\n
+        Temporarily boost stamina recovery speed by sheer force of will, which an old miner needed to get through the day."
+   },
+   {
+        title: "Quakestone Hammer",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/6/6b/Quakestone_Hammer.png/revision/latest/scale-to-width-down/350?cb=20171026032401",
+        body: "A Stonehammer wielded by the Millwood Knights, with a head of naturally-formed stone.\n
+        The Knights of Millwood would fight hand-in-hand with the earth itself, and this weapon, among the oldest in Millwood, is symbolic of that relationship.\n",
+        skill: "Quake\n
+        Burrow hammer head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry."
+   },
+   {
+        title: "Smough's Great Hammer",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/a/ad/Smough%27s_Great_Hammer.png/revision/latest/scale-to-width-down/350?cb=20160613020547",
+        body: "Twisted great Hammer associated with Smough, the last knight to remain at his post, guarding the ruined cathedral.\n
+        Restore HP while attacking, a carryover from Smough's past as an executioner.\n",
+        skill: "Perseverance\n
+        Anchor weapon in earth to temporarily boost poise. Damage reduced while activated."
+   },
+   {
+        title: "Spiked Mace",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/6/64/Spiked_Mace.png/revision/latest/scale-to-width-down/350?cb=20160613020547",
+        body: "Choice weapon of the evangelists of the Cathedral of the Deep, mentors of the dwellers of the Undead Settlement.\n
+        Its long, sharp spikes cause great pain and bleeding.\n",
+        skill: "Spin Bash\n
+        Bash foes with a large spinning motion, utilizing momentum to transition into a overhand strong attack smash."
+   },
+   {
+        title: "Vordt's Great Hammer",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/5/56/Vordt%27s_Great_Hammer.png/revision/latest/scale-to-width-down/350?cb=20160613005146",
+        body: "Great Hammer wielded by Vordt, the outrider knight of the Boreal Valley. Weapon is imbued with frost, and causes frostbite.\n
+        Frost accumulated in the body causes frostbite, which saps one's health, lowers absorption, and slows stamina recovery.\n",
+        skill: "Perseverance\n
+        Anchor weapon in earth to temporarily boost poise. Damage reduced while activated."
+   },
+
+   #
+   # --
+
+   {
         title: "",
         image_url: "",
         body: "",
