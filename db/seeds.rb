@@ -1497,6 +1497,116 @@ weapons = Weapon.create([
         Anchor weapon in earth to temporarily boost poise. Damage reduced while activated."
    },
 
+   # Daggers
+   # -- Daggers
+
+   {
+        title: "Aquamarine Dagger",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/df/Aquamarine_Dagger.png/revision/latest/scale-to-width-down/350?cb=20171103064449",
+        body: "A dagger fitted with aquamarine crystal.\n
+        Engraved with a prayer in the old tongue to ward off incident. Perhaps it was a parting gift given to one sent off on great travels.\n",
+        skill: "Crystal Blade\n
+        Release magic for the aquamarine crystals, creating a fleeting blue crystal blade, lengthy enough to swing as a straight sword."
+   },
+   {
+        title: "Bandit's Knife",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/5/5b/Bandit%27s_Knife_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613020544",
+        body: "A wide single-edged shortsword.\n
+        Primarily a slicing weapon, but its blade is crafted to cause bleeding, making it a favorite of lowly thieves and bandits.\n",
+        skill: "Quickstep\n
+        Instantly step behind or around the side of foes. Especially effective when locked on to target."
+   },
+   {
+        title: "Brigand Twindaggers",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/f3/Brigand_Twindaggers.png/revision/latest/scale-to-width-down/350?cb=20160613015635",
+        body: "These paired daggers are the preferred weapons of the brigands of a distant land.\n
+        When two-handed, the wielder holds a blade in each hand, allowing for divergent attacks that include left handed moves.\n",
+        skill: "Quickstep\n
+        Instantly step behind or around the side of foes. Especially effective when locked on to target."
+   },
+   {
+        title: "Corvian Greatknife",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/4/49/Corvian_Greatknife.png/revision/latest/scale-to-width-down/350?cb=20160613020955",
+        body: "Dagger of the unwanted, those guided by heretical storytellers.\n
+        A rather large dagger with a powerful attack, but this transparent attempt to intimidate foes reveals much about its owner's fears.\n",
+        skill: "Blind Spot\n
+        Use against shielded foes to break through their guard by attacking from the side."
+   },
+   {
+        title: "Dagger",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/d1/Dagger_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613015636",
+        body: "Standard small dagger.\n
+        Small daggers lack power or reach, but can deal quick consecutive hits due to their light weight. Highly effective when used for critical hits, such as after parrying or attacking from behind.\n",
+        skill: "Quickstep\n
+        Instantly step behind or around the side of foes. Especially effective when locked on to target."
+   },
+   {
+        title: "Handmaid's Dagger",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/75/Handmaid%27s_Dagger.png/revision/latest/scale-to-width-down/350?cb=20160613015637",
+        body: "Dagger used by handmaids of the Profaned Capital.\n
+        Each successful attack replenishes a slight amount of FP.\n
+        It is said that these women took pleasure in wounding others.\n",
+        skill: "Blind Spot\n
+        Use against shielded foes to break through their guard by attacking from the side."
+   },
+   {
+        title: "Harpe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/ff/Harpe.png/revision/latest/scale-to-width-down/350?cb=20160613015637",
+        body: "The large sickle-shaped body, used for severing corpses, is a worker's tool in the Undead Settlement.\n
+        The sharp edge is on the inside of the weapon, itself designed for cutting and pulling, the allowing for good damage against shielded foes.\n",
+        skill: "Quickstep\n
+        Instantly step behind or around the side of foes. Especially effective when locked on to target."
+   },
+   {
+        title: "Mail Breaker",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/2/22/Mail_Breaker_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613015637",
+        body: "A small sword made for thrusting attacks.\n
+        This hard, edgeless sword can pierce through tough armor, and boasts a deadly critical attack.\n",
+        skill: "Shield Splitter\n
+        Aim carefully, and attack in a large forward lunge to pierce through enemy shields and inflict damage directly."
+   },
+   {
+        title: "Murky Hand Scythe",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/fc/Murky_Hand_Scythe.png/revision/latest/scale-to-width-down/350?cb=20171103064537",
+        body: "A short-shafted hand scythe wielded by the murkmen who rise from the depths.\n
+        Enveloped by a black dampness, and imbued with the strength of dark.\n",
+        skill: "Quickstep\n
+        Instantly step behind or around the side of foes. Especially effective when locked on to target."
+   },
+   {
+        title: "Parrying Dagger",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/d5/Parrying_Dagger_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613015638",
+        body: "Dagger with a greatly curved guard.\n
+        A dagger made especially for parrying which is usually equipped in one's left hand in place of a shield.\n",
+        skill: "Parry\n
+        Deflect an attack when timed properly and follow up with a critical hit. Works while equipped in either hand."
+   },
+   {
+        title: "Rotten Ghru Dagger",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/6/6e/Rotten_Ghru_Dagger.png/revision/latest/scale-to-width-down/350?cb=20160613015638",
+        body: "A crude, half-rotten dagger.\n
+        Choice weapon of the blunt-horned Ghrus, descendants of the acolytes of Farron Keep.\n
+        The rancid blade is drenched in rotten waste, making it acutely poisonous.\n",
+        skill: "Quickstep\n
+        Instantly step behind or around the side of foes. Especially effective when locked on to target."
+   },
+   {
+        title: "Scholar's Candlestick",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/71/Scholar%27s_Candlestick.png/revision/latest/scale-to-width-down/350?cb=20160613015638",
+        body: "A candlestick covered in ivory scales once used by the Scholars of the Great Archives.\n
+        This served as their guiding light, as well as a tool of self-restrain. Even today, wielders of this weapon benefit from the resulting sorcery-strengthening properties.\n",
+        skill: "Guiding Light\n
+        The candle provides a temporary source of light which reveals additional guidance."
+   },
+   {
+        title: "Tailbone Short Sword",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/7d/Tailbone_Short_Sword.png/revision/latest/scale-to-width-down/350?cb=20160613015639",
+        body: "Twisted dagger cherished by the wretched prisoners of Irithyll Dungeon.\n
+        Crafted from a feeble tailbone, and seen as a sign of the dragons. Their screams are oft heard inside the dungeon, as they naively mutilate their unworthy flesh.\n",
+        skill: "Unleash Dragon\n
+        Thrust the dagger to unleash the strength of dragons, similar to an ancient dragon weapon, only with its power tragically faded."
+   },
+
    #
    # --
 
