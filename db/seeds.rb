@@ -1663,6 +1663,52 @@ weapons = Weapon.create([
         Instantly step behind or around the side of foes. Especially effective when locked on to target."
    },
 
+   # Whips
+   # -- Whips
+
+   {
+        title: "Notched Whip",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/11/Notched_Whip_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613011023",
+        body: "A whip with thorny spikes that shred skin, causing heavy bleeding.\n
+        The Cleansing Chapel uses whips such as these in order to produce the drops as puddles to wipe clean during its rituals.\n",
+        skill: "Impact\n
+        Strike from the left to evade shields and deal a stinging blow that temporarily slows stamina recovery. The shackles of bondage lie deep in the hearts of all humankind."
+   },
+   {
+        title: "Rose of Ariandel",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/b/b1/Rose_of_Ariandel.png/revision/latest/scale-to-width-down/350?cb=20171026030319",
+        body: "A flail used by the bulbous Father of the Painted World to shred his own skin, producing blood to appease the flame.\n
+        Both a weapon and a miracle catalyst.\n
+        Ariandel, being the restorer of the Painted World, knew that it was painted with blood, and only blood could protect the secret.\n",
+        skill: "Awakening\n
+        Violently flail oneself to trigger an awakening that temporarily boosts the strength of miracles, just as the good Father used the rose himself."
+   },
+   {
+        title: "Spotted Whip",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/da/Spotted_Whip_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613011024",
+        body: "Whip mottled with venomous-looking spots.\n
+        Favored by some female pyromancers of the Great Swamp.\n
+        As its noxious appearance would suggest, damage from this whip poisons its victims, slowly but surely guiding them to their deaths.\n",
+        skill: "Impact\n
+        Strike from the left to evade shields and deal a stinging blow that temporarily slows stamina recovery. The shackles of bondage lie deep in the hearts of all humankind."
+   },
+   {
+        title: "Whip",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/9/90/Whip_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613014037",
+        body: "A leather whip that was never intended for use in combat.\n
+        Of little use against armor and tough scales, but quite formidable against enemies with exposed skin.\n",
+        skill: "Impact\n
+        Strike from the left to evade shields and deal a stinging blow that temporarily slows stamina recovery. The shackles of bondage lie deep in the hearts of all humankind."
+   },
+   {
+        title: "Witch's Locks",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/6/6e/Witch%27s_Locks.png/revision/latest/scale-to-width-down/350?cb=20160613014037",
+        body: "A whip fashioned from the black hair of a daughter of the Witch of Izalith, creator of the Flame of Chaos.\n
+        The long, shining locks woven together to create this whip are imbued with the essence of fire, which can be channeled through the use of its Skill.\n",
+        skill: "Flame Whip\n
+        Temporarily coat the whip in fire, the self-same fire as that which consumed the Witch herself, it is said."
+   },
+
    #
    # --
 
