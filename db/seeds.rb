@@ -1637,6 +1637,35 @@ weapons = Weapon.create([
 
    # Fists
    # -- Claws
+
+   {
+        title: "Claw",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/7d/Claw_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613014634",
+        body: "Weapon favored by intelligencers of an eastern land. The lacerations it inflicts do not mend easily.\n
+        When two-handed, claws are equipped to each hand.\n",
+        skill: "Leaping Slash\n
+        Perform a forward leaping slash at the opponent's head. When successful, functions as a head shot, inflicting heavy damage."
+   },
+   {
+        title: "Crow Talons",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/0/06/Crow_Talons.png/revision/latest/scale-to-width-down/350?cb=20171025082248",
+        body: "Talons used by Corvian Knights. Inflicts five perpendicular slashes, causing heavy bleeding.\n
+        In their infatuation with Sister Friede, the Corvian Knights swore to protect the painting from fire and to this end, too to the execution of their own brethren.\n",
+        skill: "Raptor Flurry\n
+        Spread right and left talons like a broad set of wings and launch into a tornado of consecutive attacks."
+   },
+   {
+        title: "Manikin Claws",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/0/06/Manikin_Claws_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613014635",
+        body: "Weapon of the Pale Shades, assassins of the Sable Church of Londor. The curved claws cause heavy bleeding.\n
+        When two-handed, claws are equipped to each hand.\n",
+        skill: "Quick Step\n
+        Instantly step behind or around the side of foes. Especially effective when locked on to target."
+   },
+
+   #
+   # --
+
    {
         title: "",
         image_url: "",
