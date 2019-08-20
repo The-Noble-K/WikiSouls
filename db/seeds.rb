@@ -1607,9 +1607,36 @@ weapons = Weapon.create([
         Thrust the dagger to unleash the strength of dragons, similar to an ancient dragon weapon, only with its power tragically faded."
    },
 
-   #
-   # --
+   # Fists
+   # -- Fists
 
+   {
+        title: "Caestus",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/74/Caestus_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613014633",
+        body: "A fistfighter's weapon made from thick straps of leather studded with iron rivets.\n
+        When two handed, caesti are equipped in each hand.\n",
+        skill: "Perseverance\n
+        Cross arms in front of the body to temporarily boost poise. Damage reduced while activated."
+   },
+   {
+        title: "Dark Hand",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/0/00/Dark_Hand_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613014634",
+        body: "Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent.\n
+        The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield. Cannot be used two-handed.\n",
+        skill: "Lifedrain\n
+        Embrace the victim and steal their HP. Can only be used against humans."
+   },
+   {
+        title: "Demon's Fist",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/f1/Demon%27s_Fist.png/revision/latest/scale-to-width-down/350?cb=20160613014634",
+        body: "A demonic fist that burns with fiery essence. Its wielder can release this power through use of its Skill.\n
+        When two-handed, fists are equipped in each hand.\n",
+        skill: "Flame Whirlwind\n
+        Spin through opponents with abandon, flaming fists outstretched. Using a strong attack while spinning utilizes your momentum to slam the ground with both fists."
+   },
+
+   # Fists
+   # -- Claws
    {
         title: "",
         image_url: "",
