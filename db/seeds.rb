@@ -1709,6 +1709,66 @@ weapons = Weapon.create([
         Temporarily coat the whip in fire, the self-same fire as that which consumed the Witch herself, it is said."
    },
 
+   # Ranged
+   # -- Bows
+
+   {
+        title: "Black Bow of Pharis",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/df/Black_Bow_of_Pharis_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613021759",
+        body: "A black longbow named after a hero of old. Known for the unusual stance from which it is fired.\n
+        Has a longer range than standard bows, but successful usage requires a trained, dexterous hand.\n",
+        skill: "Pharis Triple-shot\n
+        Swiftly nocks three arrows with finesse after drawing the bow, firing them simultaneously."
+   },
+   {
+        title: "Composite Bow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/e/ea/Composite_Bow_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613021759",
+        body: "Composite short bow emphasizing power. Its size allows for quick shots.\n
+        Though more powerful than standard bows, it also requires more strength of the user, and its range is short.\n",
+        skill: "Rapid Fire\n
+        Swiftly nocks arrows with finesse after drawing the bow, allowing for consecutive shots."
+   },
+   {
+        title: "Darkmoon Longbow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/a/a5/Darkmoon_Longbow.png/revision/latest/scale-to-width-down/350?cb=20160613021800",
+        body: "Longbow of Darkmoon Gwyndolin. who was gradually devoured by Aldrich.\n
+        This golden bow is imbued with powerful magic and is most impressive with Moonlight Arrows.\n",
+        skill: "Darkmoon Arrow\n
+        Infuse a readied arrow with Darkmoon essence, granting it magic damage and the ability to pierce shields."
+   },
+   {
+        title: "Dragonrider Bow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/db/Dragonrider_Bow_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613021800",
+        body: "Longbow of the Dragonriders, who served the Old King of Want.\n
+        The Dragonriders were the Old King's royal guard, and great strength was demanded of them. Merely drawing this bow calls for inhuman strength. The worthy few who can master this bow, however, use it to devastating effect.\n",
+        skill: "Puncture\n
+        Pull the arrow even further back for a more powerful shot that can also pierce shields."
+   },
+   {
+        title: "Longbow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/0/07/Longbow_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613021801",
+        body: "Longbow commonly used by hunters.\n
+        Arrows must be equipped in order to use bows. Up to two kinds of arrow can be equipped at a time, and these can be switched as necessary.\n",
+        skill: "Puncture\n
+        Pull the arrow further back for a more powerful shot that can also pierce shields."
+   },
+   {
+        title: "Short Bow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/2/22/Short_Bow_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613021801",
+        body: "Standard small bow. Its size allows for quick shots.\n
+        Arrows must be equipped in order to use bows. Up to two kinds of arrow can be equipped at a time, and these can be switched between as necessary.\n",
+        skill: "Rapid Fire\n
+        Swiftly nocks arrows with finesse after drawing the bow, allowing for consecutive shots."
+   },
+   {
+        title: "White Birch Bow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/5/55/White_Birch_Bow.png/revision/latest/scale-to-width-down/350?cb=20171030061639",
+        body: "A short bow crafted with white birch. Endowed with light-manipulating magic.\n
+        The bow is a relic from an ancient land of sorceries that was swallowed by the Abyss, most known for its folktale of the heroic Abysswalker.\n",
+        skill: "Unseen Arrow\n
+        Arrows shot by large pulls of the bow are enchanted with a golden spell that turns them nearly invisible."
+   },
+
    #
    # --
 
