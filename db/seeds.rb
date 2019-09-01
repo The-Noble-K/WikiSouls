@@ -1801,6 +1801,68 @@ weapons = Weapon.create([
    # -- Crossbows
 
    {
+        title: "Arbalest",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/ff/Arbalest.png/revision/latest/scale-to-width-down/350?cb=20160613022947",
+        body: "The largest crossbow, and suitably powerful for its size.\n
+        The bow string is made of metal, requiring great strength to fire.\n",
+        skill: "Tackle\n
+        Lunge into a shoulder tackle, pushing back enemies to create distance."
+   },
+   {
+        title: "Avelyn",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/a/a6/Avelyn_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613022947",
+        body: "An extremely rare rapid-firing crossbow.\n
+        Fires three successive bolts by means of an elaborate mechanism. Inflict heavy damage by making all three shots count.\n
+        Despite its use as a weapon, this crossbow is also a priceless work of art, and it bears resemblance to a musical instrument.\n",
+        skill: "Tackle\n
+        Lunge into a shoulder tackle, pushing back enemies to create distance."
+   },
+   {
+        title: "Heavy Crossbow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/d9/Heavy_Crossbow_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613022948",
+        body: "A large, powerful crossbow. Must be readied before firing.\n
+        Bolts must be equipped in order to use crossbows. Up to two kinds of bolts can be equipped at a time, and these can be switched as necessary.\n",
+        skill: "Tackle\n
+        Lunge into a shoulder tackle, pushing back enemies to create distance."
+   },
+   {
+        title: "Knight's Crossbow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/3/33/Knight%27s_Crossbow.png/revision/latest/scale-to-width-down/350?cb=20160613022948",
+        body: "Crossbow used by the proud knights of Lothric. It bears an elaborate gold design.\n
+        The crossbow has been blessed with the power of lightning, in anticipation of the use of Lightning Bolts.\n",
+        skill: "Tackle\n
+        Lunge into a shoulder tackle, pushing back enemies to create distance."
+   },
+   {
+        title: "Light Crossbow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/7/7f/Light_Crossbow_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613022948",
+        body: "Standard crossbow wielded by common soldiers.\n
+        Must be readied before firing.\n
+        Bolts must be equipped in order to use crossbows. Up to two kinds of bolt can be equipped at a time, and these can be switched between as necessary.\n",
+        skill: "Tackle\n
+        Lunge into a shoulder tackle, pushing back enemies to create distance."
+   },
+   {
+        title: "Repeating Crossbow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/0/02/Repeating_Crossbow.png/revision/latest/scale-to-width-down/350?cb=20171030061303",
+        body: "This crossbow, customized for repeat-firing to face mobs alone, was wielded by Slave Knight Gael.\n
+        Used in the battles of an endless journey, this crossbow is covered with twists and dinks, rusted with blood, and made extremely brittle from overuse.\n",
+        skill: "Repeat Fire\n
+        Assume stance to activate repeat firing mechanism, and repeat fire with normal and strong attacks."
+   },
+   {
+        title: "Sniper Crossbow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/4/42/Sniper_Crossbow_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613022949",
+        body: "Long-range heavy crossbow used by Carim snipers.\n
+        Its lengthy base makes aiming difficult, and accurate usage requires a trained, dexterous hand.\n",
+        skill: "Tackle\n
+        Lunge into a shoulder tackle, pushing back enemies to create distance."
+   },
+
+   # 
+   # --
+
+   {
         title: "",
         image_url: "",
         body: "",
