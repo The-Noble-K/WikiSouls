@@ -1769,8 +1769,36 @@ weapons = Weapon.create([
         Arrows shot by large pulls of the bow are enchanted with a golden spell that turns them nearly invisible."
    },
 
-   #
-   # --
+   # Ranged
+   # -- Greatbows
+
+   {
+        title: "Dragonslayer Greatbow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/9/94/Dragonslayer_Greatbow_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613022347",
+        body: "Greatbow used by the Dragonslayers during the age of gods. Far greater in size than any normal bow, and far more devastating.\n
+        The bow must be anchored to the ground when fired, a time-consuming operation that leaves the user vulnerable. Only specialized great arrows can be fired from the bow.\n",
+        skill: "Puncturing Arrow\n
+        Masterfully fires off a great arrow that pierces through all enemies in its path, inflicting damage."
+   },
+   {
+        title: "Onislayer Greatbow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/c/c9/Onislayer_Greatbow.png/revision/latest/scale-to-width-down/350?cb=20160613022348",
+        body: "A unique greatbow handed down in an eastern land, where tales are told of its use in slaying giant horned oni.\n
+        Drawing a bow of this size takes time, and leaves the user vulnerable. Only specialized great arrows can be fired from the bow.\n",
+        skill: "Puncturing Arrow\n
+        Masterfully fires off a great arrow that pierces through all enemies in its path, inflicting damage."
+   },
+   {
+        title: "Millwood Greatbow",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/e/e5/Millwood_Greatbow.png/revision/latest/scale-to-width-down/350?cb=20171026030529",
+        body: "Greatbow crafted with black oak and wielded by Millwood Knights. Only specialized great arrows can be fired from the bow.\n
+        It is said that the Millwood Knights used these to face their sworn enemy, the Abyss Dragon.\n",
+        skill: "Pierce Earth\n
+        Fire a greatarrow with a burst of strength and a prayer that violently shakes its target and explodes on impact."
+   },
+
+   # Ranged 
+   # -- Crossbows
 
    {
         title: "",
