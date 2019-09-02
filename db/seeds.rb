@@ -2078,9 +2078,19 @@ weapons = Weapon.create([
    # -- Pyromancy Flames
 
    {
-        title: "",
-        image_url: "",
-        body: "",
-        skill: ""
+        title: "Pyromancy Flame",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/f9/Pyromancy_Flame_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613031636",
+        body: "Flame catalyst used by pyromancers.\n
+        Equip a pyromancy flame to utilize pyromancy. Pyromancies must be attuned at a bonfire to use.\n",
+        skill: "Combustion\n
+        Creates a powerful flame in the wielder's hand. One of the most basic pyromancies, and for this very reason, the flame create is fierce. Works while equipped in either hand."
+   },
+   {
+        title: "Pyromancer's Parting Flame",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/2/2e/Pyromancer%27s_Parting_Flame.png/revision/latest/scale-to-width-down/350?cb=20171026031044",
+        body: "The pyromancy flame of Livid Pyromancer Dunnel that attracts the echoes of the death.\n
+        When Dunnel lost his hideous spouse, he gave his own pyromancy flame as an offering, which transformed into a parting flame. Not long after, Dunnel became a mad spirit, cursed to wander the lands.\n",
+        skill: "Parting Flame\n
+        Release store of death echoes to gain a modest dose of Estus."
    },
 ])
