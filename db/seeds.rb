@@ -2018,6 +2018,66 @@ weapons = Weapon.create([
    # -- Sacred Chimes
 
    {
+        title: "Caitha's Chime",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/d4/Caitha%27s_Chime_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613031026",
+        body: "Sacred chime blessed by Caitha, goddess of tears. Rare even amongst Carim clerics.\n
+        Affected by intelligence, a rare thing for miracle catalysts, and also agreeable with miracles that lean towards the Dark. Its existence is concealed in the name of the Archbishop, as it is anathema.\n",
+        skill: "Gentle Prayer\n
+        Recovers HP for a period of time, albeit extremely slowly. Works while equipped in either hand."
+   },
+   {
+        title: "Cleric's Sacred Chime",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/13/Cleric%27s_Sacred_Chime_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613031031",
+        body: "Sacred chime for casting miracles of the Gods. Chimes such as these are often given to clerics who become Undead.\n
+        Equip a talisman or a sacred chime to cast miracles. Miracles must be attuned at a bonfire before use.\n",
+        skill: "Gentle Prayer\n
+        Recovers HP for a period of time, albeit extremely slowly. Works while equipped in either hand."
+   },
+   {
+        title: "Crystal Chime",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/d1/Crystal_Chime.png/revision/latest/scale-to-width-down/350?cb=20160613031031",
+        body: "A sacred chime, once the possession of Gertrude, the Heavenly Daughter, and defiled by the scholars of the Grand Archives.\n
+        The power of crystals granted the scholars a degree of success. In this case, their work enabled this chime to be suitable for casting both miracles and sorceries.\n",
+        skill: "Gentle Prayer\n
+        Recovers HP for a period of time, albeit extremely slowly. Works while equipped in either hand."
+   },
+   {
+        title: "Priest's Chime",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/4/42/Priest%27s_Chime_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613031031",
+        body: "Sacred chime for casting miracles of the Gods, of the type given to Lothric priests.\n
+        To cast a miracle, the caster learns a tale of the Gods, and says a prayer to be blessed by its revelations. The faith of the supplicant affects the strength of the miracle.\n",
+        skill: "Gentle Prayer\n
+        Recovers HP for a period of time, albeit extremely slowly. Works while equipped in either hand."
+   },
+   {
+        title: "Sacred Chime of Filianore",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/19/Sacred_Chime_of_Filianore.png/revision/latest/scale-to-width-down/350?cb=20171030055731",
+        body: "A sacred chime blessed by Princess Filianore, matriarch of the church.\n
+        Filianore's favor knows no boundaries, and this sacred chime expand the range of vicinity-affecting miracles that heal, cure, or provide other enhancements.\n",
+        skill: "Pray for Favor\n
+        Works with chime equipped in left or right hand. Heal HP very slowly for a duration of time. Affect caster and those in vicinity."
+   },
+   {
+        title: "Saint-Tree Bellvine",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/1/19/Saint-tree_Bellvine.png/revision/latest/scale-to-width-down/350?cb=20160613031032",
+        body: "Sacred chime for casting miracles of the Gods. A bellvine cut from a small saint-tree that has been meticulously tended to.\n
+        Saint-tree bellvines are customary in the far north, and allow for faster casting than ordinary sacred chimes.\n",
+        skill: "Gentle Prayer\n
+        Recovers HP for a period of time, albeit extremely slowly. Works while equipped in either hand."
+   },
+   {
+        title: "Yorshka's Chime",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/fa/Yorshka%27s_Chime.png/revision/latest/scale-to-width-down/350?cb=20160613031032",
+        body: "A sacred chime belonging to Yorshka. Her brother, the former knight captain, presented her with this medium together with another gift: her name.\n
+        The ringing of the chime must have done much to soothe her loneliness.\n",
+        skill: "Gentle Prayer\n
+        Recovers HP for a period of time, albeit extremely slowly. Works while equipped in either hand."
+   },
+
+   # Spell Catalysts
+   # -- Pyromancy Flames
+
+   {
         title: "",
         image_url: "",
         body: "",
