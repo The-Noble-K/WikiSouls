@@ -1859,7 +1859,109 @@ weapons = Weapon.create([
         Lunge into a shoulder tackle, pushing back enemies to create distance."
    },
 
-   # 
+   # Spell Catalysts
+   # -- Staves
+
+   {
+        title: "Archdeacon's Great Staff",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/f0/Archdeacon%27s_Great_Staff.png/revision/latest/scale-to-width-down/350?cb=20160613024628",
+        body: "Large staff bestowed upon Archdeacons of the Cathedral of the Deep.\n
+        The Archdeacon McDonnell's trespass, the sin of channeling faith for sorcery, transformed what was once merely a symbol of ecclesiastic authority into a catalyst for sorceries.\n",
+        skill: "Steady Chant\n
+        Boost the strength of sorceries for a very short period. Works while equipped in either hand."
+   },
+   {
+        title: "Court Sorcerer's Staff",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/6/69/Court_Sorcerer%27s_Staff.png/revision/latest/scale-to-width-down/350?cb=20160613024653",
+        body: "Catalyst used by the court sorcerers of the Profaned Capital. Very powerful when wielded by an exceptionally intelligent sorcerer.\n
+        The court sorcerers laid claim to the legacy of the renowned Big Hat Logan, going so far as to emulate him with copies of the staff he used.\n",
+        skill: "Steady Chant\n
+        Boost the strength of sorceries for a very short period. Works while equipped in either hand."
+   },
+   {
+        title: "Heretic's Staff",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/b/bd/Heretic%27s_Staff.png/revision/latest/scale-to-width-down/350?cb=20160613024629",
+        body: "Catalyst used by generations of heretic sorcerers.\n
+        Sorcery is a logical academic discipline, and the power of sorceries depends heavily on the caster's intelligence.\n",
+        skill: "Steady Chant\n
+        Boost the strength of sorceries for a very short period. Works while equipped in either hand."
+   },
+   {
+        title: "Izalith Staff",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/3/33/Izalith_Staff.png/revision/latest/scale-to-width-down/350?cb=20160613024655",
+        body: "Ancient catalyst of the Witch of Izalith and her daughters, used long before the dawn of chaos and of pyromancy.\n
+        With the birth of the Chaos Flame, the flame witches were at once both sorcerers and shamans. Faith adjusts the power of sorceries cast using this catalyst, and the staff also seems to boost the power of dark sorceries.\n",
+        skill: "Steady Chant\n
+        Boost the strength of sorceries for a very short period. Works while equipped in either hand."
+   },
+   {
+        title: "Man Grub's Staff",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/3/3f/Man-grub%27s_Staff.png/revision/latest/scale-to-width-down/350?cb=20160613024630",
+        body: "Staff of the man-grubs who guard Rosaria's Bed Chamber. Their holy symbol is formed at the tip.\n
+        Wielder's luck strengthens the effects of sorceries.\n
+        The man-grubs have clearly been reborn, but as what?\n",
+        skill: "Steady Chant\n
+        Boost the strength of sorceries for a very short period. Works while equipped in either hand."
+   },
+   {
+        title: "Mendicant's Staff",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/c/c3/Mendicant%27s_Staff.png/revision/latest/scale-to-width-down/350?cb=20160613024631",
+        body: "A staff with a small bowl attached to the tip, similar to a mendicant's crook.\n
+        Absorb additional souls from fallen foes.\n
+        The staff's history is unclear. It may be a relic of an ancient serpent's greed, or a ritual artifact used to summon souls.\n",
+        skill: "Steady Chant\n
+        Boost the strength of sorceries for a very short period. Works while equipped in either hand."
+   },
+   {
+        title: "Murky Longstaff",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/d8/Murky_Longstaff.png/revision/latest/scale-to-width-down/350?cb=20171030055457",
+        body: "The long-handled staff wielded by the murkmen who rise from the depths.\n
+        Slathered with a black murkiness, and fit for dark sorceries.\n",
+        skill: "Chant from the Depths\n
+        Works with staff equipped in left or right hand. Briefly boosts the strength of dark sorceries."
+   },
+   {
+        title: "Preacher's Right Arm",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/5/5d/Preacher%27s_Right_Arm.png/revision/latest/scale-to-width-down/350?cb=20171030055605",
+        body: "The dessicated right hand of a white-faced locust that rose from the abyssal swamp, that happens to perform as a catalyst for sorcery.\n
+        The white-faced locusts were meant to beckon men to the dark with sermons, but most of them are unable to think past their own stomachs, the unruly mob!\n",
+        skill: "Feasting Branch\n
+        Use souls to weave a sharp branch to fillet prey. Can be used repeatedly."
+   },
+   {
+        title: "Sage's Crystal Staff",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/e/ee/Sage%27s_Crystal_Staff.png/revision/latest/scale-to-width-down/350?cb=20160613024655",
+        body: "Crystal catalyst presented as a gift by the Crystal Sages to their favorite pupil, Kriemhild.\n
+        Crystal spheres devour the will of the user, and this staff increases the potency of sorceries at the cost of increased FP consumption for Skills.\n",
+        skill: "Steady Chant\n
+        Boost the strength of sorceries for a very short period. Works while equipped in either hand."
+   },
+   {
+        title: "Sorcerer's Staff",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/d3/Sorcerer%27s_Staff_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613024656",
+        body: "Staff used to cast sorceries. A common catalyst given to sorcerers of the Vinheim Dragon School.\n
+        Equip a catalyst to use sorceries. Sorceries must be attuned at a bonfire before use.\n",
+        skill: "Steady Chant\n
+        Boost the strength of sorceries for a very short period. Works while equipped in either hand."
+   },
+   {
+        title: "Storyteller's Staff",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/d3/Storyteller%27s_Staff.png/revision/latest/scale-to-width-down/350?cb=20160613024633",
+        body: "Staff of a heretic storyteller who shares tales of the Painted World to forlorn souls.\n
+        The storytellers, too, are wretched beings with no place to go. Their bodies, souls, and even their staves are all tainted through and through.\n",
+        skill: "Poison Spores\n
+        Expel noxious spores from the formless, parasitical things that inhabit the staff."
+   },
+   {
+        title: "Witchtree Branch",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/f/f6/Witchtree_Branch_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160629191607",
+        body: "The branch of a large, well-tended witchtree, used as a sorcery catalyst.\n
+        Witchtree staves are customary in the far north, and allow for faster casting than ordinary catalysts.\n",
+        skill: "Steady Chant\n
+        Boost the strength of sorceries for a very short period. Works while equipped in either hand."
+   },
+
+   # Spell Catalysts
    # --
 
    {
