@@ -1962,7 +1962,60 @@ weapons = Weapon.create([
    },
 
    # Spell Catalysts
-   # --
+   # -- Talismans
+
+   {
+        title: "Canvas Talisman",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/3/38/Canvas_Talisman_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613030000",
+        body: "Medium for casting miracles of the Gods. Canvas talismans are austere items carried by heralds.\n
+        Equip a talisman or a sacred chime to cast miracles. Miracles must be attuned at a bonfire before use.\n",
+        skill: "Unfaltering Prayer\n
+        Temporarily increase poise while casting miracles, preventing enemy attacks from interrupting prayer. Works while equipped in either hand."
+   },
+   {
+        title: "Saint's Talisman",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/c/ca/Saint%27s_Talisman.png/revision/latest/scale-to-width-down/350?cb=20160613030001",
+        body: "Medium for casting miracles of the Gods.\n
+        Ivory talismans are given only to women clerics, and faith greatly affects their effectiveness.\n
+        There is a certain frailty to this talisman, which undermines the steadfastness granted by its Skill.\n",
+        skill: "Unfaltering Prayer\n
+        Temporarily increase poise while casting miracles, preventing enemy attacks from interrupting prayer. Works while equipped in either hand."
+   },
+   {
+        title: "Sunless Talisman",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/5/53/Sunless_Talisman.png/revision/latest/scale-to-width-down/350?cb=20160613030001",
+        body: "Talisman given to the knights of the Sunless Realms, who serve the nameless moon.\n
+        Scales with intelligence, which is rare for a miracle catalyst, but makes it compatible with Dark. In the Sunless Realms, this fact is related first as an initial warning.\n",
+        skill: "Unfaltering Prayer\n
+        Temporarily increase poise while casting miracles, preventing enemy attacks from interrupting prayer. Works while equipped in either hand."
+   },
+   {
+        title: "Sunlight Talisman",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/b/b5/Sunlight_Talisman_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613030001",
+        body: "The Knight of Sunlight's personal talisman for casting miracles of the Gods.\n
+        The talisman bears the Knight's own holy illustration, an emblem of his unwavering faith. Use of the talisman's Skill fills the user with similar steadfastness.\n",
+        skill: "Unfaltering Prayer\n
+        Temporarily increase poise while casting miracles, preventing enemy attacks from interrupting prayer. Works while equipped in either hand."
+   },
+   {
+        title: "Talisman",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/d/dd/Talisman_%28DSIII%29.png/revision/latest/scale-to-width-down/350?cb=20160613030002",
+        body: "Talisman for casting miracle of the Gods. Once a very common item among the ranks of the old Way of White.\n
+        Equip a talisman or a sacred chime to cast miracles. Miracles must be attuned at a bonfire before use.\n",
+        skill: "Unfaltering Prayer\n
+        Temporarily increase poise while casting miracles, preventing enemy attacks from interrupting prayer. Works while equipped in either hand."
+   },
+   {
+        title: "White Hair Talisman",
+        image_url: "https://vignette.wikia.nocookie.net/darksouls/images/6/6c/White_Hair_Talisman.png/revision/latest/scale-to-width-down/350?cb=20160613030002",
+        body: "Talisman made from a lock of white hair.\n
+        This lock of hair belonged to a deformed member of the chaos witches, mothers of the art of pyromancy. Fashioned into a talisman, it enables the wielder to cast both miracles and pyromancies.\n",
+        skill: "Combustion\n
+        Creates a powerful flame in the wielder's hand. One of the most basic pyromancies, and for this reason, the flame created is fierce. Works while equipped in either hand."
+   },
+
+   # Spell Catalysts
+   # -- Sacred Chimes
 
    {
         title: "",
